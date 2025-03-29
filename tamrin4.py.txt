@@ -1,0 +1,11 @@
+a = int (input (" give me your grade :"))
+
+if ( a > 90 ):
+    print ( "Exellent" )
+
+elif ( 90 < a ) and ( a > 70 ):
+       print ( "Great" )
+elif ( 70 > a ) and ( a > 50 ):
+      print ( "Good" )
+elif ( 50 > 0 ):
+      print ( "Failed" )
